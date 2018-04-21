@@ -1,0 +1,21 @@
+%pseudos {
+  content: '';
+  position: absolute;
+}
+
+@mixin p-el($el: before, $el-width: 100%, $el-height: 0.2rem, $color: #000) {
+  &::#{$el} {
+    @extend %pseudos;
+    width: $el-width;
+    height: $el-height;
+    background-color: $color;
+    @content;
+  }
+}
+
+@mixin flex($dir: row, $align: center, $justify: center) {
+  display: flex;
+  flex-direction: $dir;
+  align-items: $align;
+  justify-content: $justify;
+}

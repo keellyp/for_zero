@@ -1,0 +1,20 @@
+.btn {
+  background-color: $main-color;
+  color: $white;
+  font-weight: $bold;
+  font-size: 0.875em;
+  padding: 3rem;
+  box-sizing: content-box;
+  cursor: pointer;
+}
+.tag {
+  background-color: $main-color;
+  padding: 0.8rem;
+  display: inline-block;
+
+  p {
+    color: $white;
+    font-weight: $bold;
+    font-size: 0.75em;
+  }
+}

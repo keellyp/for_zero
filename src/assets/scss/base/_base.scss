@@ -1,0 +1,51 @@
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+::selection {
+  color: $white;
+  background-color: $main-color;
+}
+
+.main-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hidden-wrapper {
+  overflow: hidden;
+}
+
+.small-link {
+  color: $white;
+  font-style: italic;
+  font-size: 0.6875em;
+}
+
+.toRight-enter-active,
+.toRight-leave-active {
+  transition: all 0.5s ease-in-out;
+}
+.toRight-enter,
+.toRight-leave-to {
+  will-change: transform;
+  transform: translateX(-100%);
+}
+.fade-enter-active,
+.fade-leave-active {
+  will-change: opacity;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}

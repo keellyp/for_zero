@@ -1,0 +1,14 @@
+// Reset
+@import './base/_reset.scss';
+
+// Import variables
+@import './variables/_responsive.scss';
+@import './variables/_vars.scss';
+
+@import './helpers/_fonts.scss';
+@import './helpers/_mixins.scss';
+@import './helpers/_buttons.scss';
+
+// Basic settings
+@import './base/_typography.scss';
+@import './base/_base.scss';

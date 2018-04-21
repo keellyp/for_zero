@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="14px" viewBox="0 0 15 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>account-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME-Copy" transform="translate(-1344.000000, -32.000000)" fill="#FEFEFE">
+            <g id="Group-2" transform="translate(1263.000000, 0.000000)">
+                <g id="account-icon" transform="translate(81.000000, 32.000000)">
+                    <g id="Group-3" transform="translate(0.000000, 8.625000)">
+                        <path d="M7.0671,0.0667 C3.8011,0.0667 1.0321,1.3337 0.0001,3.0987 L0.0001,5.0007 L14.1331,5.0007 L14.1331,3.0987 C13.1021,1.3337 10.3321,0.0667 7.0671,0.0667" id="Fill-1"></path>
+                    </g>
+                    <path d="M10.6833,3.6165 C10.6833,5.6145 9.0643,7.2335 7.0673,7.2335 C5.0693,7.2335 3.4503,5.6145 3.4503,3.6165 C3.4503,1.6195 5.0693,0.0005 7.0673,0.0005 C9.0643,0.0005 10.6833,1.6195 10.6833,3.6165" id="Fill-4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

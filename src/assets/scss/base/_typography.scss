@@ -1,0 +1,36 @@
+// Typography base
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+  font-size: 1.6rem;
+  color: $black;
+  line-height: calc(1em * 1.4);
+  font-weight: $regular;
+}
+
+h1 {
+  font-size: 4.6875em;
+  font-weight: $bold;
+  line-height: 1em;
+}
+
+h2 {
+  font-size: 1.25em;
+  font-weight: $regular;
+  line-height: 1em;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: $bold;
+  line-height: 1.3em;
+}
+
+p.caption {
+  font-size: 0.75em;
+}
+p.footnote {
+  font-size: 0.833em;
+}
